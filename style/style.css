@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Quintessential&display=swap');
+                                                /*ֆոնտի հասցե, կարող ենք վերցնել https://fonts.google.com/    */
+li{
+    margin: 5px;                                /* դրսից 4 կողմից  5px hեռավորություն է սահմանում է*/
+    padding: 10px;                              /* ներսից 4 կողմից 10px hեռավորություն է սահմանում է*/
+    display: inline-block;                      /* բոլորը դասավորում է մեկ գծով և էլեմենտի երկարությունը սահմանում բովանդակության չափով*/
+    color: white;
+    font-size: 24px;                            /*տեքստի չափ*/
+    font-family: 'Quintessential', cursive;     /*Փոխում է ֆոնտը*/
+}
+
+img{
+    width: 100px;                               /* նկարի երկարություն*/
+}
+ body{
+     background-image: linear-gradient(45deg, rgb(104, 35, 110), black);/*գրադիենտային գունալցում 45 աստիճան թեքությամբ*/
+     text-align: center;                        /* վիդեոն տեղադրում է մեջտեղում*/
+     height: 100vh;
+ }
+ video{
+     margin-top: 150px;                         /* 150px  հեռավորություն վերևից*/
+ }
